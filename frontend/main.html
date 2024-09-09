@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+        <a href="index.html" class="home-link"><img src="./image/pngtree-travel-logo.jpg"></a>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Book a Trip</a></li>
+        <li><a href="#">My Trips</a></li>
+        <li><a href="#">Tickets/Booking</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Airport Info</a></li>
+        <li><a href="#">Support/Help</a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <input type="text" placeholder="Search..." class="search-bar">
+      <div class="icons">
+        <a href="#" class="icon notification-icon">🔔</a>
+        <a href="#" class="icon profile-icon">👤</a>
+        <button class="cta">Get Started</button>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+      </div>
+    </div>
+  </header>
+    <h1>Travel Booking</h1>
+    <h2>Book a Ticket</h2>
+    <div id="booking">
+        <form id="bookingForm">
+            <label for="trip">Trip:</label>
+            <input type="text" id="trip" name="trip" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Book Ticket</button>
+        </form>
+    </div>
+    <!-- <div id="cancel">
+        <h2>Cancel Booking</h2>
+        <form id="cancelForm">
+            <label for="bookingId">Booking ID:</label>
+            <input type="text" id="bookingId" name="bookingId" required>
+            <button type="submit">Cancel Booking</button>
+        </form>
+    </div>
+    <div id="overview">
+        <h2>Trip Overview</h2>
+        <button id="overviewButton">View Overview</button>
+        <div id="overviewResult"></div>
+    </div>
+    <div id="pricing">
+        <h2>Check Pricing</h2>
+        <button id="pricingButton">Check Pricing</button>
+        <div id="pricingResult"></div>
+    </div>
+    <div id="airports">
+        <h2>Available Airports in Nigeria</h2>
+        <button id="airportsButton">View Airports</button>
+        <div id="airportsResult"></div>
+    </div> -->
+    <script src="scripts.js"></script>
+</body>
+</html>
