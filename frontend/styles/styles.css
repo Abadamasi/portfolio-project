@@ -9,6 +9,25 @@
     line-height: 1.6;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/frontend/image/bg.img.png');
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100vh;
+    margin: 0;
+  }
+
+  main {
+    flex: 1;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    /* Fixed height or padding as needed */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
   
   /* Header Styles */
@@ -57,6 +76,9 @@
   .header-right {
     display: flex;
     align-items: center;
+    width: 80vh;
+    gap: 10;
+
   }
   
   .search-bar {
@@ -104,6 +126,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-left: 50px;
 }
 
 /* Style the dropdown button */
@@ -188,7 +211,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
   }
 
   .loginForm {
